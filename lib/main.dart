@@ -1,3 +1,4 @@
+import 'package:firstflutter_app/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main()
@@ -10,11 +11,7 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context) {
     // TODO: implement build for UI
     return MaterialApp(
-      home:  Material(
-       child: Center( child: Container(
-            child: Text('WelCome to Flutter UI Works'),
-        ))
-      ),
+      home: HomePage(),
     );
   }
 
