@@ -1,4 +1,5 @@
 import 'package:firstflutter_app/home_page.dart';
+import 'package:firstflutter_app/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main()
@@ -11,7 +12,6 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context) {
     // TODO: implement build for UI
     return MaterialApp(
-      home: HomePage(),
       themeMode: ThemeMode.system,
       theme: ThemeData(
         primarySwatch: Colors.blue
@@ -23,7 +23,9 @@ class MyApp extends StatelessWidget
         //     primarySwatch: Colors.blueGrey
       ),
       routes: {
-        "/":(context) => HomePage(),
+        "/":(context) => loginPage(),
+        "/loginPage":(context) => loginPage(),
+
       },
 
     );
