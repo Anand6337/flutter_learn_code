@@ -20,7 +20,9 @@ class MyApp extends StatelessWidget
         // primaryTextTheme: GoogleFonts.latoTextTheme(),
 
       ),
+
       darkTheme: ThemeData(
+        fontFamily: GoogleFonts.acme().fontFamily,
         // dialogBackgroundColor: Colors.black45,
         //     primarySwatch: Colors.blueGrey
       ),
@@ -30,6 +32,7 @@ class MyApp extends StatelessWidget
         "/Homepage":(context) => const HomePage(),
 
       },
+
 
     );
   }
