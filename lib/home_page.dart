@@ -9,6 +9,7 @@ class HomePage extends StatelessWidget {
     const String name = "Anand's";
     return  Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepOrange,
         title: Text("Pustak Grah"),
       ),
     body: Center(
@@ -17,7 +18,7 @@ class HomePage extends StatelessWidget {
     ),
     ),
       drawer: const Drawer(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.deepOrange,
       ),
 
     );

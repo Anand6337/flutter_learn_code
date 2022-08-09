@@ -1,3 +1,4 @@
+import 'package:firstflutter_app/utils/routes.dart';
 import 'package:flutter/material.dart';
 
 class loginPage extends StatelessWidget {
@@ -11,14 +12,14 @@ class loginPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             const SizedBox(height: 130),
-            Image.asset("assets/images/icon_image.png",
+            Image.asset("assets/images/logo.png",
               height: 110,
             ),
             const SizedBox(height: 50),
             const Text("WELCOME TO PUSTAK GRAH",
               style: TextStyle(fontWeight: FontWeight.bold,
                   fontSize: 35,
-                color: Colors.amber,
+                color: Colors.deepOrange,
             ),
             ),
             const SizedBox(height: 20,),
@@ -31,9 +32,9 @@ class loginPage extends StatelessWidget {
                      decoration:
                      const InputDecoration(
                        focusedBorder: UnderlineInputBorder( //For UnderLine Border
-                         borderSide: BorderSide(color: Colors.amber)
+                         borderSide: BorderSide(color: Colors.deepOrange)
                        ),
-                       labelStyle: TextStyle(fontSize: 20,color: Colors.amber),
+                       labelStyle: TextStyle(fontSize: 20,color: Colors.deepOrange),
                        hintStyle: TextStyle(fontSize: 15,color: Colors.black45),
                          hintText: "Enter UserName",
                         label: Center(
@@ -47,9 +48,9 @@ class loginPage extends StatelessWidget {
                      obscureText: true,
                      decoration: const InputDecoration(
                        focusedBorder: UnderlineInputBorder(
-                         borderSide: BorderSide(color: Colors.amber),
+                         borderSide: BorderSide(color: Colors.deepOrange),
                        ),
-                         labelStyle: TextStyle(fontSize: 20,color: Colors.amber),
+                         labelStyle: TextStyle(fontSize: 20,color: Colors.deepOrange),
                          hintStyle: TextStyle(fontSize: 15,color: Colors.black45),
                          hintText: "Enter Password",
                          label: Center(
@@ -59,9 +60,13 @@ class loginPage extends StatelessWidget {
                    ),
                    const SizedBox(height: 40,),
                    ElevatedButton(
-                       onPressed:() {},
-                       child:Text("LogIn",),
-                     style:TextButton.styleFrom(minimumSize: const Size(150, 35)),
+                       onPressed:() {
+                        Navigator.pushNamed(context, MyRoutes.homeRoute);
+                       },
+                     style:
+                     TextButton.styleFrom(minimumSize: const Size(150, 35)),
+                       child:const Text("LogIn",),
+
                    ),
                    const SizedBox(height: 60,),
                    Image.asset("assets/images/login_image.png",
