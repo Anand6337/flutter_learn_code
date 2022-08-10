@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget
         // dialogBackgroundColor: Colors.black45,
         //     primarySwatch: Colors.blueGrey
       ),
-      initialRoute: "/loginPage",
+      // initialRoute: "/loginPage",
       routes: {
         "/" : (context) => loginPage(),
         MyRoutes.loginRoute: (context) =>  loginPage(),
