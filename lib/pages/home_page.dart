@@ -1,3 +1,4 @@
+import 'package:firstflutter_app/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -7,20 +8,16 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     const int days = 30;
     const String name = "Anand's";
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
         title: Text("Pustak Grah"),
       ),
-    body: Center(
+      body: Center(
         child: Container(
           child: const Text('WelCome to $name Flutter UI Works in $days days'),
-    ),
-    ),
-      drawer: const Drawer(
-        backgroundColor: Colors.deepOrange,
+        ),
       ),
-
+      drawer: const MyDrawer(),
     );
   }
 }
