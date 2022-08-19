@@ -1,35 +1,60 @@
+import 'dart:convert';
+
 import 'package:firstflutter_app/models/products.dart';
-import 'package:firstflutter_app/widgets/books_widget.dart';
-import 'package:firstflutter_app/widgets/drawer.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:velocity_x/velocity_x.dart';
 
-import '../models/products.dart';
-import '../models/products.dart';
+import '../widgets/home_widgets/app_header.dart';
+import '../widgets/home_widgets/books_list.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
   @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    loadData();
+  }
+
+  loadData() async {
+    await Future.delayed(Duration(seconds: 2));
+    var booksJson = await rootBundle.loadString("assets/data_file/books.json");
+    var decodeData = jsonDecode(booksJson);
+    var productsData = decodeData["books"];
+    BookModel.books = List.from(productsData)
+        .map<Items>((items) => Items.fromMap(items))
+        .toList();
+    setState(() {});
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final dummylist = List.generate(20, (index) => BookModel.books[0]);
-    const int days = 30;
-    const String name = "Anand's";
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Pustak Grah"),
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: ListView.builder(
-          itemCount: dummylist.length,
-          itemBuilder: (BuildContext context, int index) {
-            return BooksWidgets(
-              items: dummylist[index],
-            );
-          },
+      body: SafeArea(
+        child: Container(
+          color: Vx.gray100,
+          padding: Vx.m32,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              AppHeader(),
+              if (BookModel.books.isNotEmpty)
+                const BooksList().expand()
+              else
+                //Here we are checking if our data is null / Loading from database still it'll show an rounded loading circle bar to the screen
+
+                CircularProgressIndicator().centered().expand(),
+            ],
+          ),
         ),
       ),
-      drawer: const MyDrawer(),
     );
   }
 }

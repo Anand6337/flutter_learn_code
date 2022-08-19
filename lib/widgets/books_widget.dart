@@ -11,20 +11,24 @@ class BooksWidgets extends StatelessWidget {
     return Card(
       color: Colors.white70,
       shape: const StadiumBorder(),
-      shadowColor: Colors.deepOrange,
+      // shadowColor: Colors.deepOrange,
       elevation: 0.3,
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ListTile(
+          shape: StadiumBorder(),
+          hoverColor: Colors.white70,
           leading: Image.network(
             items.book_img,
             height: 50,
           ),
-          title: Text(items.book_name),
+          title: Text(items.book_name,
+              style: const TextStyle(fontWeight: FontWeight.bold)),
           subtitle: Text(items.book_descp),
           trailing: Text(
-            items.book_price,
-            textScaleFactor: 1.2,
+            items.read_btn,
+            textScaleFactor: 0.9,
+            textAlign: TextAlign.center,
             style: const TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.deepOrange,
