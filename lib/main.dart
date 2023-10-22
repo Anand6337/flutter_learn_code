@@ -1,3 +1,4 @@
+import 'package:firstflutter_app/pages/home_details.dart';
 import 'package:firstflutter_app/pages/home_page.dart';
 import 'package:firstflutter_app/pages/login_page.dart';
 import 'package:firstflutter_app/pages/splash_screen.dart';
@@ -20,9 +21,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // initialRoute: "/HomePage",
       routes: {
-        "/": (context) => HomePage(),
+        "/": (context) => SplashScreen(),
         MyRoutes.loginRoute: (context) => loginPage(),
         MyRoutes.homeRoute: (context) => const HomePage(),
+
+        // MyRoutes.homeDetailsRoute: (context) => HomeDetailsPage()
       },
     );
   }

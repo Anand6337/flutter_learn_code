@@ -1,4 +1,3 @@
-import 'package:firstflutter_app/pages/home_page.dart';
 import 'package:firstflutter_app/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -25,18 +24,18 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              "assets/images/logo.png",
+              "assets/images/logo1.png",
               scale: 4,
             ),
             const SizedBox(
               height: 29,
             ),
             const Text(
-              "Pustak Grah",
+              "ESPPR",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontSize: 45,
-                color: Colors.deepOrange,
+                fontSize: 95,
+                color: Color.fromRGBO(255, 106, 24, 1),
               ),
               textAlign: TextAlign.center,
             ),
@@ -47,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void navigatetohome() async {
-    await Future.delayed(const Duration(milliseconds: 2000), () {});
+    await Future.delayed(const Duration(milliseconds: 3000), () {});
     Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => loginPage()));
   }

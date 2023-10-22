@@ -10,8 +10,8 @@ class AppHeader extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        "Pustak Grah".text.xl5.bold.color(Colors.deepOrangeAccent).make(),
-        "Your Virtual Pocket Library is here...".text.xl.make(),
+        "ESSPR".text.xl5.bold.color(Colors.deepOrangeAccent).make(),
+        "the shopping era ".text.xl.make(),
       ],
     );
   }

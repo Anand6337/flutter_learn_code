@@ -1,148 +1,81 @@
 {
   "books": [
     {
-      "book_name": "Ramayana",
-      "book_img": "https://5.imimg.com/data5/QH/YI/YB/SELLER-54244914/ramayan-book-500x500.png",
-      "book_descp": "Reamker is a Cambodian epic poem, based on the Sanskrit's Ramayana epic.",
-      "read_btn": "Read now"
+      "book_name": "boAt Rockerz 245 pro",
+      "book_img": "assets/images/logo.png",
+      "book_descp": "Bluetooth Neckband with Beast",
+      "product_price": "₹1169.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "Mahabharata",
-      "book_img": "https://1.imimg.com/data/W/T/MY-1539833/Mahabharata_of_Vyasa_500x500.jpg",
-      "book_descp": "The Mahabharata is one of the two major Sanskrit epics of ancient India.",
-      "read_btn": "Read now"
+      "book_name": "boAt Rockerz 245 pro",
+      "book_img": "https://5.imimg.com/data5/SELLER/Default/2022/9/BD/NK/RH/10268042/boat-rockerz-255-pro-earphones-1000x1000.png",
+      "book_descp": "Bluetooth Neckband with Beast",
+      "product_price": "₹1169.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "Shiv Mahapuraan",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/91MjpJj1TPL.jpg",
-      "book_descp": "The Shiva Purana is one of eighteen major texts of the Purana genre of Sanskrit texts in Hinduism.",
-      "read_btn": "Read now"
+      "book_name": "boAt Xtend Smartwatch",
+      "book_img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/CMF.1028_1800x.png?v=1661155840",
+      "book_descp": "1.69” HD Display, Multiple Watch Faces",
+      "product_price": "₹2,997.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "Captain Vikram Batra",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/512nkStF-7L.jpg",
-      "book_descp": "An Story of Brave Soldier whose curiosity becomes him a Legend Amar_Shahid",
-      "read_btn": "Read now"
+      "book_name": "Redmi 9 Active",
+      "book_img": "https://m.media-amazon.com/images/I/911TJ1CDbLL._SL1500_.jpg",
+      "book_descp": "(Carbon Black, 4GB RAM, 64GB Storage) ",
+      "product_price": "₹7,999.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "Ikigai the Japanese secret",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/81l3rZK4lnL.jpg",
-      "book_descp": "Introduces various topics related to the art of living.",
-      "read_btn": "Read now"
+      "book_name": "Redmi Note 11",
+      "book_img": "https://m.media-amazon.com/images/I/71Iq9ug6OvL._SL1500_.jpg",
+      "book_descp": "(Space Black, 4GB RAM, 64GB Storage)",
+      "product_price": "₹12,999.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "Hanuman Chalisa in English",
-      "book_img": "https://cdn.dollsofindia.com/images/p/hindu-books/hanuman-chalisa-EQ49_l.jpg",
-      "book_descp": "Story of devotion and submission of Hanuman to Lord Ram.",
-      "read_btn": "Read now"
+      "book_name": " Samsung Galaxy S20FE",
+      "book_img": "https://m.media-amazon.com/images/I/81vDZyJQ-4L._SL1500_.jpg",
+      "book_descp": "(Cloud Lavender, 8GB RAM, 128GB Storage) ",
+      "product_price": "₹32,990.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "The Secret(Rahasya)-1",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/81MArWaiw1L.jpg",
-      "book_descp": "How the law of attraction, which states that positive energy attracts positive things into your life.",
-      "read_btn": "Read now"
+      "book_name": "Samsung Galaxy M32",
+      "book_img": "https://m.media-amazon.com/images/I/71os5DRhuSL._SL1500_.jpg",
+      "book_descp": "(Slate Black, 8GB RAM, 128GB Storage) ",
+      "product_price": "₹20,999.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "Aap IAS kese banenge",
-      "book_img": "https://rukminim1.flixcart.com/image/312/312/ki7qw7k0-0/book/g/k/x/aap-ias-kaise-banegain-original-imafy2fh367mggfh.jpeg?q=70",
-      "book_descp": "Adds value to your prior knowledge about the UPSC examinations. ",
-      "read_btn": "Read now"
+      "book_name": "boAt Stone 620 Speaker",
+      "book_img": "https://m.media-amazon.com/images/I/61oSoHc7VtL._SL1500_.jpg",
+      "book_descp": "12W RMS Stereo Sound, 10HRS Playtime, IPX4",
+      "product_price": "₹1,699.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "The Mahatma Gandhi",
-      "book_img": "https://m.media-amazon.com/images/I/41BVMcs4PUL.jpg",
-      "book_descp": "Experiments of Truth or Autobiography covering his life from early childhood through to 1921",
-      "read_btn": "Read now"
+      "book_name": "Zebronics ZEB-COUNTY 3W",
+      "book_img": "https://m.media-amazon.com/images/I/81v-h4I5CCL._SL1500_.jpg",
+      "book_descp": "Wireless Bluetooth Portable Speaker ",
+      "product_price": "₹549.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "Godan (Munshi Premchand)",
-      "book_img": "https://cdn.shopaccino.com/boookart/products/munchi-premchand-godan--947140_s.jpeg",
-      "book_descp": " It highlights the struggle between the peasant and the money-lender backed by various forces.",
-      "read_btn": "Read now"
+      "book_name": "Blaupunkt SBA20 16W",
+      "book_img": "https://m.media-amazon.com/images/I/61ePXgvEpcS._SL1500_.jpg",
+      "book_descp": "Audio System for all technology",
+      "product_price": "₹1,598.00",
+      "read_btn": "Add to Cart"
     },
     {
-      "book_name": "Philosophy of Man (Swami Vivekananda)",
-      "book_img": "https://rukminim1.flixcart.com/image/416/416/book/3/4/4/swami-vivekananda-philosophy-of-man-original-imaeeyq55dhssrth.jpeg?q=70",
-      "book_descp": "Morality with control of the mind, seeing truth, purity and unselfishness",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "Hum Honge Kamyab(APJ Abdul Kalam)",
-      "book_img": "https://rukminim1.flixcart.com/image/416/416/ku5ufm80/book/m/j/l/hum-honge-kamyab-original-imag7c79sx5eejzy.jpeg?q=70",
-      "book_descp": "डॉ. कलाम के जीवन-प्रसंगों, उनके विचारों को प्रस्तुत करती प्रेरणादायी पुस्तक।",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "The Secret(The Magic)-3 ",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/81wgT+4iCwL.jpg",
-      "book_descp": " Rhonda Byrne reveals this life-changing knowledge to the world. ",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "One Indian Girl(Chetan Bhagat)",
-      "book_img": "https://m.media-amazon.com/images/I/51btCZ-13mL.jpg",
-      "book_descp": "The book is about a girl named Radhika Mehta",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "All Is Well",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/41+kv3sGi2L._SX322_BO1,204,203,200_.jpg",
-      "book_descp": "A woman at her breaking point piercingly funny indictment of our collective refusal to witness and believe female pain.",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "The Secret (The Power)-2",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/91W1TmCvoHL.jpg",
-      "book_descp": "The Power describes how Byrne greets each blessed moment with overwhelming love and gratitude toward all creation. ",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "12th Fail(Anurag Pathak)",
-      "book_img": "https://rukminim1.flixcart.com/image/400/400/kt7jv680/regionalbooks/z/f/m/twelfth-fail-12th-fail-in-hindi-papperback-original-imag6hyvytjhuzzd.jpeg?q=90",
-      "book_descp": "A true story that has broken the records of being the best seller in the Hindi literature world.",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "Rich Dad Poor Dad",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg",
-      "book_descp": "Story which help you develop the mindset and financial knowledge you need to build a life of wealth and freedom.",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "Chanakya Neeti",
-      "book_img": "https://rukminim1.flixcart.com/image/612/612/ksdjma80/book/l/a/a/chanakya-neeti-with-chanakya-sutra-original-imag5yhhj4wu8sp7.jpeg?q=70",
-      "book_descp": "An Indian theorist, teacher, philosopher, economist and a noble mentor to the Mauryan emperors between 350 -275 BC.",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "Execution of Bhagat Singh",
-      "book_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKX8jvh3njF_71Zq-B4zjVtddSB_JaRB5H-A&usqp=CAU",
-      "book_descp": "Bhagat Singh who became a folk hero almost immediately after his execution.",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "Bhasan Kala",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/81rFRhrMunL.jpg",
-      "book_descp": "यह पुस्तक सिखाती है कि वहीं तक बोलना जारी रखें, जहाँ तक सत्य का संचित कोष आपके पास है। ",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "Rubik's Guide",
-      "book_img": "https://img.yumpu.com/436683/1/500x640/rubiks-cube-3x3-solution-guide.jpg",
-      "book_descp": "The book tell us that how the Rubik's cube can be solved .",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "Vaigyaanik Bharat",
-      "book_img": "https://images-na.ssl-images-amazon.com/images/I/81ciyWPzQsL.jpg",
-      "book_descp": " विज्ञान के प्रति हमारी सोच और दृष्‍टि को एक धार, एक दिशा देनेवाली पुस्तक, जो इक्कीसवीं शताब्दी में भारत के तकनीकी विकास का ब्लूप्रिंट प्रस्तुत करती है।",
-      "read_btn": "Read now"
-    },
-    {
-      "book_name": "50 Miltary Leaders",
-      "book_img": "https://rukminim1.flixcart.com/image/416/416/kiqbma80-0/book/4/i/r/50-military-leader-original-imafygqedg3byd97.jpeg?q=70",
-      "book_descp": "50 Military Leaders That Changed the World does not celebrate warfare, but rather shines its spotlight on the leaders",
-      "read_btn": "Read now"
+      "book_name": "boAt Airdopes 121 PRO",
+      "book_img": "https://m.media-amazon.com/images/I/51JIuiGkP9L._SL1500_.jpg",
+      "book_descp": " Wireless Earbuds with Beas Mode for Gaming",
+      "product_price": "₹1,299.00",
+      "read_btn": "Add to Cart"
     }
   ]
 }

@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../widgets/home_widgets/app_header.dart';
-import '../widgets/home_widgets/books_list.dart';
+import '../widgets/home_widgets/product_list.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
     var booksJson = await rootBundle.loadString("assets/data_file/books.json");
     var decodeData = jsonDecode(booksJson);
     var productsData = decodeData["books"];
-    BookModel.books = List.from(productsData)
+    CatalogModel.items = List.from(productsData)
         .map<Items>((items) => Items.fromMap(items))
         .toList();
     setState(() {});
@@ -39,17 +39,16 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: SafeArea(
         child: Container(
-          color: Vx.gray100,
-          padding: Vx.m32,
+          color: Vx.gray200,
+          padding: Vx.m24,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               AppHeader(),
-              if (BookModel.books.isNotEmpty)
-                const BooksList().expand()
+              if (CatalogModel.items.isNotEmpty)
+                const BooksList().py16().expand()
               else
                 //Here we are checking if our data is null / Loading from database still it'll show an rounded loading circle bar to the screen
-
                 CircularProgressIndicator().centered().expand(),
             ],
           ),
